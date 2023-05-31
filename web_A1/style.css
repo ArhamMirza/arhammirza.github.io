@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(244, 241, 241);
+    font-family: 'Raleway';
+    
+}
+
+.navbar-custom
+{
+    background-color: rgb(132, 132, 132);
+    color:black;
+    border-radius: 0;
+    
+}
+
+.navbar-custom button span{
+    background-color: #000000;
+}
+
+
+.navbar-brand{
+    font-size: 24px;
+    color:black; 
+}
+
+nav ul{
+    display:none;
+    color:black;
+}
+
+header{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.box{
+    position: relative;
+    word-wrap: break-word;
+    margin:20px 20px 20px 20px;
+    padding:10px 10px 10px 10px;
+    background-color: rgb(132, 132, 132);
+    border: 2px solid #000000;
+}
+.container p{
+    word-wrap: break-word;
+    padding:10px 10px 10px 10px;
+    margin-top: 30px;
+    color:rgb(0, 0, 0);
+    text-align:justify;
+    background-color: rgb(132, 132, 132);
+}
+.item
+{
+    text-align: center !important;
+    border: 2px solid #000000 !important;
+    border-width:0 0 2px 2px !important;
+    position: absolute !important;
+    height:35px !important;
+    width:150px !important;
+    top:0px !important;
+    right:0px !important;
+    margin:0 !important;
+    padding:0 !important;
+    color:black !important
+
+}
+.container h2{
+    margin:0;
+    padding:0;
+    background-color: rgb(214, 90, 56);
+    text-align: center;  
+}
+#Chicken{
+    background-color: rgb(233, 157, 136);
+}
+#Chicken h2{
+    margin:0;
+    padding:0;
+    background-color: rgb(233, 157, 136);
+}
+#Beef{
+    background-color: rgb(214, 90, 56);
+}
+#Beef h2{
+    margin:0;
+    padding:0;
+    background-color: rgb(214, 90, 56);
+}
+#Sushi{
+    background-color: rgb(184, 212, 99);
+}
+#Sushi h2{
+    margin:0;
+    padding:0;
+    background-color: rgb(184, 212, 99);
+}
+
+@media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    nav ul li a{
+        color:black;
+        font-size: 18px;
+    }
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color:black;
+        
+    }
+    
+  
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container{
+    flex-wrap: wrap;
+    margin:10px 10px 10px 10px;
+}
+.box{
+    margin: 2% 2% 2% 2%;
+}
+#first{
+    width:44%;
+    
+}
+#second{
+    width:44%;
+    
+}
+#third{
+    width:93%;
+   
+}
+}
+  
+  
+  
+  
+  
